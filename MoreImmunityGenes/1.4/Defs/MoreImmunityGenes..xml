@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <GeneDef ParentName="GeneImmunityBase">
+    <defName>Immunity_Hyper</defName>
+    <label>hyper immunity</label>
+    <labelShortAdj>hyper-immune</labelShortAdj>
+    <description>Carriers of this gene gain immunity to diseases at extreme speeds compared to normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_SuperStrongImmunity</iconPath>
+    <displayOrderInCategory>21</displayOrderInCategory>
+    <marketValueFactor>2</marketValueFactor>
+    <statFactors>
+      <ImmunityGainSpeed>2</ImmunityGainSpeed>
+    </statFactors>
+    <biostatMet>-3</biostatMet>
+    <biostatCpx>3</biostatCpx>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>stout</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneImmunityBase">
+    <defName>Immunity_BelowAverage</defName>
+    <label>below average immunity</label>
+    <labelShortAdj>slightly susceptible</labelShortAdj>
+    <description>Carriers of this gene gain immunity to diseases a little more slowly than normal. They may require a bit more bedrest than normal.</description>
+    <iconPath>UI/Icons/Genes/Gene_WeakImmunity</iconPath>
+    <displayOrderInCategory>5</displayOrderInCategory>
+    <statFactors>
+      <ImmunityGainSpeed>0.95</ImmunityGainSpeed>
+    </statFactors>
+    <biostatMet>1</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>sick</symbol>
+          <weight>3</weight>
+        </li>
+        <li><symbol>frail</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneImmunityBase">
+    <defName>Immunity_VeryWeak</defName>
+    <label>very weak immunity</label>
+    <labelShortAdj>very susceptible</labelShortAdj>
+    <description>Carriers of this gene gain immunity to diseases a lot more slowly than normal. They may die from infections that others would survive.</description>
+    <iconPath>UI/Icons/Genes/Gene_WeakImmunity</iconPath>
+    <displayOrderInCategory>-1</displayOrderInCategory>
+    <statFactors>
+      <ImmunityGainSpeed>0.75</ImmunityGainSpeed>
+    </statFactors>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>3</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>sick</symbol>
+          <weight>3</weight>
+        </li>
+        <li><symbol>frail</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneImmunityBase">
+    <defName>Immunity_SuperWeak</defName>
+    <label>weak immunity</label>
+    <labelShortAdj>susceptible</labelShortAdj>
+    <description>Carriers of this gene gain immunity to diseases exceptionally slowly compared to normal. Many seemingly benign illnesses could kill them easily if don't receive major medical attention.</description>
+    <iconPath>UI/Icons/Genes/Gene_WeakImmunity</iconPath>
+    <displayOrderInCategory>-2</displayOrderInCategory>
+    <statFactors>
+      <ImmunityGainSpeed>0.5</ImmunityGainSpeed>
+    </statFactors>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>4</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li>
+          <symbol>sick</symbol>
+          <weight>3</weight>
+        </li>
+        <li><symbol>frail</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+</Defs>
