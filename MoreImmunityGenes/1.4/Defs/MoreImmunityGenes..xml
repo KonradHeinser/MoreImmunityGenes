@@ -67,8 +67,8 @@
 
   <GeneDef ParentName="GeneImmunityBase">
     <defName>Immunity_SuperWeak</defName>
-    <label>weak immunity</label>
-    <labelShortAdj>susceptible</labelShortAdj>
+    <label>super weak immunity</label>
+    <labelShortAdj>extremely susceptible</labelShortAdj>
     <description>Carriers of this gene gain immunity to diseases exceptionally slowly compared to normal. Many seemingly benign illnesses could kill them easily if don't receive major medical attention.</description>
     <iconPath>UI/Icons/Genes/Gene_WeakImmunity</iconPath>
     <displayOrderInCategory>-2</displayOrderInCategory>
