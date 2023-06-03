@@ -16,6 +16,7 @@
 
   <loadAfter>
     <li>Ludeon.RimWorld.Biotech</li>
+    <li>sarg.alphagenes</li>
   </loadAfter>
 
   <description>
