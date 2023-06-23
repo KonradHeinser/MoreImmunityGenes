@@ -2,8 +2,11 @@
 <Patch>
     <Operation Class="PatchOperationSequence">
         <operations>
-            <li Class="PatchOperationRemove" MayRequire="sarg.alphagenes">
-                <xpath>/Defs/GeneDef[defName="AG_Gene_VeryWeakImmunity"]</xpath>
+            <li Class="PatchOperationAdd" MayRequire="sarg.alphagenes">
+                <xpath>/Defs/GeneDef[defName="AG_Gene_VeryWeakImmunity"]/modExtensions/li[@Class="VanillaGenesExpanded.GeneExtension"]</xpath>
+			    <value>
+				    <hideGene>true</hideGene>
+			    </value>
             </li>
         </operations>
     </Operation>
